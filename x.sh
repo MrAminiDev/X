@@ -130,10 +130,10 @@ download_and_extract_backhaul() {
     ARCH=$(uname -m)
     case "$ARCH" in
         x86_64)
-            DOWNLOAD_URL="https://raw.githubusercontent.com/MrAminiDev/X/refs/heads/main/backhaul_premium.zip"
+            DOWNLOAD_URL="https://raw.githubusercontent.com/MrAminiDev/X/refs/heads/main/backhaul_premium.tar.zip"
             ;;
         arm64|aarch64)
-            DOWNLOAD_URL="https://raw.githubusercontent.com/MrAminiDev/X/refs/heads/main/backhaul_premium.zip"
+            DOWNLOAD_URL="https://raw.githubusercontent.com/MrAminiDev/X/refs/heads/main/backhaul_premium.tar.zip"
             ;;
         *)
             echo -e "${RED}Unsupported architecture: $ARCH.${NC}"
